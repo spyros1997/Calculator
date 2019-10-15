@@ -206,6 +206,7 @@
 
     <TextView
         android:id="@+id/textView2"
+        android:background="#D3D3D3 "
         android:layout_width="88dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -243,5 +244,33 @@
         android:layout_marginTop="133dp"
         android:layout_marginEnd="26dp"
         android:layout_marginRight="26dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:background="#D3D3D3 "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="223dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:background="#D3D3D3 "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="324dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="274dp"
+        android:background="#D3D3D3 " />
 
 </RelativeLayout>
