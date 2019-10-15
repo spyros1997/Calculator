@@ -27,10 +27,12 @@ public class MainActivity extends AppCompatActivity {
     private Button dia;
     private TextView episkopish;
     private TextView apotelesma;
+    private TextView episkopish2;
     private int k;
     private  int a1;
     private  int a2;
     private  int apot;
+    private String kati;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             one.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    episkopish.setText(episkopish.getText() +"1");
+                    episkopish.setText(episkopish.getText() + "1" );
                 }
             });
         two.setOnClickListener(new View.OnClickListener() {
@@ -103,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
         sin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                episkopish2.setText(episkopish.getText() + "+");
                 a1 = Integer.parseInt(episkopish.getText().toString());
                // apotelesma.setText(episkopish.getText() +"+");
                 episkopish.setText(null);
@@ -114,6 +117,7 @@ public class MainActivity extends AppCompatActivity {
         mion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                episkopish2.setText(episkopish.getText() + "-");
                 a1 = Integer.parseInt(episkopish.getText().toString());
                 // apotelesma.setText(episkopish.getText() +"+");
                 episkopish.setText(null);
@@ -125,6 +129,7 @@ public class MainActivity extends AppCompatActivity {
         epi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                episkopish2.setText(episkopish.getText() + "X");
                 a1 = Integer.parseInt(episkopish.getText().toString());
                 // apotelesma.setText(episkopish.getText() +"+");
                 episkopish.setText(null);
@@ -136,6 +141,7 @@ public class MainActivity extends AppCompatActivity {
         dia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                episkopish2.setText(episkopish.getText() + "/");
                 a1 = Integer.parseInt(episkopish.getText().toString());
                 // apotelesma.setText(episkopish.getText() +"+");
                 episkopish.setText(null);
@@ -150,6 +156,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 apotelesma.setText(null);
                 episkopish.setText(null);
+                episkopish2.setText(null);
                 a1= 0;
                 a2= 0;
                 k=0;
@@ -161,7 +168,10 @@ public class MainActivity extends AppCompatActivity {
         ison.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                kati = episkopish2.getText().toString();
+                episkopish2.setText( kati + episkopish.getText());
                 a2 = Integer.parseInt(episkopish.getText().toString());
+                episkopish.setText(null);
 
                 if(k==1){
                     apot= a1 + a2;
@@ -205,6 +215,7 @@ public class MainActivity extends AppCompatActivity {
         dia = (Button)findViewById(R.id.btnd);
         episkopish = (TextView)findViewById(R.id.textView);
         apotelesma = (TextView)findViewById(R.id.textView2);
+        episkopish2 = (TextView)findViewById(R.id.textView3);
 
 
 
