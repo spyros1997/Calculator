@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="98dp"
+        android:layout_marginTop="111dp"
         android:layout_marginEnd="25dp"
         android:layout_marginRight="25dp" />
 
@@ -29,7 +29,9 @@
         android:layout_marginTop="354dp"
         android:layout_marginEnd="318dp"
         android:layout_marginRight="318dp"
-        android:text="1" />
+        android:background="#ED616161"
+        android:text="1"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btn9"
@@ -41,7 +43,9 @@
         android:layout_marginStart="197dp"
         android:layout_marginLeft="197dp"
         android:layout_marginTop="158dp"
-        android:text="9" />
+        android:background="#ED616161"
+        android:text="9"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btn8"
@@ -53,7 +57,9 @@
         android:layout_marginStart="101dp"
         android:layout_marginLeft="101dp"
         android:layout_marginTop="159dp"
-        android:text="8" />
+        android:background="#ED616161"
+        android:text="8"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btn7"
@@ -67,7 +73,9 @@
         android:layout_marginTop="158dp"
         android:layout_marginEnd="317dp"
         android:layout_marginRight="317dp"
-        android:text="7" />
+        android:background="#ED616161"
+        android:text="7"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btnsin"
@@ -79,7 +87,9 @@
         android:layout_marginTop="160dp"
         android:layout_marginEnd="6dp"
         android:layout_marginRight="6dp"
-        android:text="+" />
+        android:background="#ED616161"
+        android:text="+"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btn6"
@@ -91,7 +101,9 @@
         android:layout_marginStart="198dp"
         android:layout_marginLeft="198dp"
         android:layout_marginTop="255dp"
-        android:text="6" />
+        android:background="#ED616161"
+        android:text="6"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btn5"
@@ -103,7 +115,9 @@
         android:layout_marginStart="96dp"
         android:layout_marginLeft="96dp"
         android:layout_marginTop="257dp"
-        android:text="5" />
+        android:background="#ED616161"
+        android:text="5"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btn4"
@@ -117,7 +131,9 @@
         android:layout_marginTop="257dp"
         android:layout_marginEnd="316dp"
         android:layout_marginRight="316dp"
-        android:text="4" />
+        android:background="#ED616161"
+        android:text="4"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btnplin"
@@ -129,6 +145,7 @@
         android:layout_marginTop="255dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:background="#ED616161"
         android:text="-" />
 
     <Button
@@ -138,10 +155,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="205dp"
-        android:layout_marginLeft="205dp"
-        android:layout_marginTop="354dp"
-        android:text="3" />
+        android:layout_marginStart="207dp"
+        android:layout_marginLeft="207dp"
+        android:layout_marginTop="358dp"
+        android:background="#ED616161"
+        android:text="3"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btn2"
@@ -153,7 +172,9 @@
         android:layout_marginStart="95dp"
         android:layout_marginLeft="95dp"
         android:layout_marginTop="354dp"
-        android:text="2" />
+        android:background="#ED616161"
+        android:text="2"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btnx"
@@ -165,7 +186,9 @@
         android:layout_marginTop="358dp"
         android:layout_marginEnd="6dp"
         android:layout_marginRight="6dp"
-        android:text="X" />
+        android:background="#ED616161"
+        android:text="X"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btne"
@@ -177,7 +200,9 @@
         android:layout_marginStart="9dp"
         android:layout_marginLeft="9dp"
         android:layout_marginBottom="216dp"
-        android:text="=" />
+        android:background="#ED616161"
+        android:text="="
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btnc"
@@ -189,7 +214,9 @@
         android:layout_marginEnd="96dp"
         android:layout_marginRight="96dp"
         android:layout_marginBottom="216dp"
-        android:text="clear" />
+        android:background="#ED616161"
+        android:text="clear"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btnz"
@@ -202,19 +229,20 @@
         android:layout_marginEnd="200dp"
         android:layout_marginRight="200dp"
         android:layout_marginBottom="217dp"
-        android:text="0" />
+        android:background="#ED616161"
+        android:text="0"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/textView2"
-        android:background="#D3D3D3 "
         android:layout_width="88dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="67dp"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp" />
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -232,45 +260,14 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="215dp"
-        android:text="/" />
+        android:background="#ED616161"
+        android:text="/"
+        android:textColor="#FFFFFF" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="82dp"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="133dp"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:background="#D3D3D3 "
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="223dp" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:background="#D3D3D3 "
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="324dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="-1dp"
-        android:layout_marginBottom="274dp"
-        android:background="#D3D3D3 " />
+        app:srcCompat="@drawable/image" />
 
 </RelativeLayout>
