@@ -175,19 +175,19 @@ public class MainActivity extends AppCompatActivity {
 
                 if(k==1){
                     apot= a1 + a2;
-                    apotelesma.setText(String.valueOf(apot));
+                    apotelesma.setText("="+String.valueOf(apot));
                 }
                 else if (k == 2){
                     apot = a1 - a2;
-                    apotelesma.setText(String.valueOf(apot));
+                    apotelesma.setText("="+String.valueOf(apot));
                 }
                 else if (k == 3){
                     apot = a1 * a2;
-                    apotelesma.setText(String.valueOf(apot));
+                    apotelesma.setText("="+String.valueOf(apot));
                 }
                 else if (k == 4){
                     apot = a1 / a2;
-                    apotelesma.setText(String.valueOf(apot));
+                    apotelesma.setText("="+String.valueOf(apot));
                 }
             }
         });
