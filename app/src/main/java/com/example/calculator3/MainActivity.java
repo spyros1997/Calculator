@@ -25,13 +25,14 @@ public class MainActivity extends AppCompatActivity {
     private Button ison;
     private Button clear;
     private Button dia;
+    private Button komma;
     private TextView episkopish;
     private TextView apotelesma;
     private TextView episkopish2;
     private int k;
-    private  int a1;
-    private  int a2;
-    private  int apot;
+    private  float a1;
+    private  float a2;
+    private  float apot;
     private String kati;
 
     @Override
@@ -100,13 +101,19 @@ public class MainActivity extends AppCompatActivity {
                 episkopish.setText(episkopish.getText() +"0");
             }
         });
+        komma.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                episkopish.setText(episkopish.getText() +".");
+            }
+        });
 
         //κωδικας  μετατροπης του string se int, αναθεση σε μεταβλιτή κα ορισμός αριθμου πραξης
         sin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 episkopish2.setText(episkopish.getText() + "+");
-                a1 = Integer.parseInt(episkopish.getText().toString());
+                a1 = Float.parseFloat(episkopish.getText().toString());
                // apotelesma.setText(episkopish.getText() +"+");
                 episkopish.setText(null);
                 k=1;
@@ -118,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 episkopish2.setText(episkopish.getText() + "-");
-                a1 = Integer.parseInt(episkopish.getText().toString());
+                a1 = Float.parseFloat(episkopish.getText().toString());
                 // apotelesma.setText(episkopish.getText() +"+");
                 episkopish.setText(null);
                 k=2;
@@ -130,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 episkopish2.setText(episkopish.getText() + "X");
-                a1 = Integer.parseInt(episkopish.getText().toString());
+                a1 = Float.parseFloat(episkopish.getText().toString());
                 // apotelesma.setText(episkopish.getText() +"+");
                 episkopish.setText(null);
                 k=3;
@@ -142,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 episkopish2.setText(episkopish.getText() + "/");
-                a1 = Integer.parseInt(episkopish.getText().toString());
+                a1 = Float.parseFloat(episkopish.getText().toString());
                 // apotelesma.setText(episkopish.getText() +"+");
                 episkopish.setText(null);
                 k=4;
@@ -170,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 kati = episkopish2.getText().toString();
                 episkopish2.setText( kati + episkopish.getText());
-                a2 = Integer.parseInt(episkopish.getText().toString());
+                a2 = Float.parseFloat(episkopish.getText().toString());
                 episkopish.setText(null);
 
                 if(k==1){
@@ -213,6 +220,7 @@ public class MainActivity extends AppCompatActivity {
         ison = (Button)findViewById(R.id.btne);
         clear = (Button)findViewById(R.id.btnc);
         dia = (Button)findViewById(R.id.btnd);
+        komma = (Button)findViewById(R.id.btnk);
         episkopish = (TextView)findViewById(R.id.textView);
         apotelesma = (TextView)findViewById(R.id.textView2);
         episkopish2 = (TextView)findViewById(R.id.textView3);
